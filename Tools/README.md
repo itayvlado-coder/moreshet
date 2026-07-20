@@ -28,6 +28,8 @@ Tools/
 | Create New Skill | `create-new-skill.md` | Build a new skill and add it to the OS |
 | Create New Agent | `create-new-agent.md` | Build a new agent and add them to the team |
 | Create New Workflow | `create-new-workflow.md` | Build a new workflow and wire it to a slash command |
+| Transcribe Interview | `transcribe-interview.md` | Turn a raw interview video/audio file into a text transcript (local Whisper) |
+| Summarize Interview | `summarize-interview.md` | Turn an interview transcript into a short summary card for the editor |
 
 ---
 

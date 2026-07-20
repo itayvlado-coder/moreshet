@@ -177,6 +177,8 @@ I never touch any other repo. The folder I am in is the only OS I work for. No e
 | `create-new-skill` | Build a new skill and add it to the OS |
 | `create-new-agent` | Build a new agent and add them to the team |
 | `create-new-workflow` | Build a new workflow and wire it to a slash command |
+| `transcribe-interview` | Turn a raw interview video/audio file into a text transcript (local Whisper) |
+| `summarize-interview` | Turn an interview transcript into a short summary card for the editor |
 
 **Workflows — multi-step sequences triggered by slash commands:**
 

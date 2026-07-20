@@ -1,1 +1,5 @@
 .DS_Store
+
+# Raw interview footage — too large for git, never committed
+Brain/05-Interviews/**/raw/*
+!Brain/05-Interviews/**/raw/.gitkeep
