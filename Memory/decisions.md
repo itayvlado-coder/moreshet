@@ -34,3 +34,8 @@ Include:
 **Decided:** Raw interview video files live in `Brain/05-Interviews/[Season]/raw/`, gitignored. Transcripts and summary cards (in the same season folder) are committed to git.
 **Why:** `Memory/` is reserved for small, compressed state files per the system's own convention; raw video (multi-GB files) doesn't belong there and would break git if committed (files far exceed practical repo size).
 **Means:** Any new raw footage the user drops in should go straight into this structure, not into `Memory/`.
+
+## 2026-07-23 — Real personnel names never go into external-facing documents without explicit sign-off
+**Decided:** Any document meant to leave the company (broadcaster submissions, pitches, GTM material) must ship with a placeholder instead of real commander/soldier names, even when those names are already known internally from interview files, until the CEO explicitly confirms them for that specific document.
+**Why:** The people named are active/reserve IDF personnel; a broadcaster submission is a real external disclosure, not an internal working file — the bar for including a real name is higher than for an internal interview summary.
+**Means:** On the "ימים סגולים" broadcaster pitch (`Brain/05-Interviews/Gaza Project/פורמט הגשה.docx`), the participants field was left as an explicit placeholder rather than filled from the older narrative doc's names. Apply the same rule to any future external-facing document for either project.

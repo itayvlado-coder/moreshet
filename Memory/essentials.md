@@ -2,7 +2,7 @@
 
 *Compressed current state. Read this at the start of every session for instant context.*
 
-Last updated: 2026-07-22
+Last updated: 2026-07-23
 
 ---
 
@@ -14,7 +14,9 @@ Moreshet is a documentary production company that takes raw army footage, event 
 
 ## Active Projects
 
-- **Season 2 — IDF in Lebanon (4-5 episodes).** Interview phase done. Interview summarization pipeline is built and validated: `Brain/05-Interviews/Season2-Lebanon/` (raw/transcripts/summaries), skills `transcribe-interview` and `summarize-interview`, and a markdown-to-Word converter (`Tools/scripts/summary_md_to_docx.py`). Four summaries done so far: Daniel Loria's Al-Khiam and Bint Jbeil interviews, a Givati brigade-commander interview on Ayta/Bint Jbeil (interviewee name unconfirmed — flagged in the file), and Roed Balus (Shaked battalion commander, replacing Loria) on the Zutrim battle, a drone strike that killed the battalion doctor, and the Lahav-3 tunnel in Kfar Arnon. Transcripts keep arriving via different paths (Downloads, or dropped straight into the `transcripts/` folder) — check both when told about a new upload. Two more raw interviews (codenamed "Winston") are untouched in `raw/`.
+- **Season 2 — IDF in Lebanon (4-5 episodes).** Interview phase done. Interview summarization pipeline is built and validated: `Brain/05-Interviews/Season2-Lebanon/` (raw/transcripts/summaries), skills `transcribe-interview` and `summarize-interview`, and a markdown-to-Word converter (`Tools/scripts/summary_md_to_docx.py`, fixed 2026-07-23 — used to leak literal `**` into Word output). Five summaries done so far: Daniel Loria's Al-Khiam and Bint Jbeil interviews, a Givati brigade-commander interview on Ayta/Bint Jbeil (interviewee name unconfirmed — flagged in the file), Roed Balus (Shaked battalion commander, replacing Loria) on the Zutrim battle, a drone strike that killed the battalion doctor, and the Lahav-3 tunnel in Kfar Arnon, and Adari (a rifle-company commander) on the Litani-river defense and the physical execution of destroying that same Lahav-3 tunnel. Transcripts keep arriving via different paths (Downloads, or dropped straight into the `transcripts/` folder) — check both when told about a new upload. Two more raw interviews (codenamed "Winston") are untouched in `raw/`.
+
+- **"ימים סגולים" (Gaza Project) — broadcaster submission.** A separate, more mature project: a 9-episode documentary on Givati brigade's first 28 days of the Gaza ground maneuver (Swords of Iron). Lives in `Brain/05-Interviews/Gaza Project/` — has a full synopsis, a complete 9-chapter treatment, and an older lower-priority narrative doc. First deliverable, a broadcaster pitch document (`פורמט הגשה.docx`), was drafted 2026-07-23. Open item: the CEO must confirm which real commander names can be listed as participants before this goes out externally — currently a placeholder.
 
 ---
 
