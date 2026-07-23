@@ -2,7 +2,7 @@
 
 *Compressed current state. Read this at the start of every session for instant context.*
 
-Last updated: 2026-07-20
+Last updated: 2026-07-22
 
 ---
 
@@ -14,7 +14,7 @@ Moreshet is a documentary production company that takes raw army footage, event 
 
 ## Active Projects
 
-- **Season 2 — IDF in Lebanon (4-5 episodes).** Interview phase done. Interview summarization pipeline is now built and validated: `Brain/05-Interviews/Season2-Lebanon/` (raw/transcripts/summaries), skills `transcribe-interview` and `summarize-interview`, and a markdown-to-Word converter (`Tools/scripts/summary_md_to_docx.py`). Two real summaries done so far — Daniel Loria's Al-Khiam and Bint Jbeil interviews (videos #1 and #3 of 3). Video #2 (Loria) is being transcribed externally by Itay. Two more raw interviews (codenamed "Winston") are untouched in `raw/`.
+- **Season 2 — IDF in Lebanon (4-5 episodes).** Interview phase done. Interview summarization pipeline is built and validated: `Brain/05-Interviews/Season2-Lebanon/` (raw/transcripts/summaries), skills `transcribe-interview` and `summarize-interview`, and a markdown-to-Word converter (`Tools/scripts/summary_md_to_docx.py`). Four summaries done so far: Daniel Loria's Al-Khiam and Bint Jbeil interviews, a Givati brigade-commander interview on Ayta/Bint Jbeil (interviewee name unconfirmed — flagged in the file), and Roed Balus (Shaked battalion commander, replacing Loria) on the Zutrim battle, a drone strike that killed the battalion doctor, and the Lahav-3 tunnel in Kfar Arnon. Transcripts keep arriving via different paths (Downloads, or dropped straight into the `transcripts/` folder) — check both when told about a new upload. Two more raw interviews (codenamed "Winston") are untouched in `raw/`.
 
 ---
 
@@ -29,12 +29,13 @@ Moreshet is a documentary production company that takes raw army footage, event 
 
 - Real summary format only became clear after seeing the user's manual examples — don't assume a content format, check for existing examples first.
 - Local CPU Whisper is too slow to be practical for ~20 interviews; external ASR/transcription tools are the default, Whisper is the fallback.
+- Transcripts often don't state the interviewee's name — infer from context, flag it clearly, and confirm with the user before finalizing rather than guessing.
 
 ---
 
 ## Current State
 
-Interview phase for Season 2 (IDF in Lebanon) is done. The summarization pipeline is built and proven on two real interviews. Next: finish Loria's video #2, transcribe and summarize the two Winston interviews, and get Itay's manual review on the AI-generated summaries before scaling to the rest of the ~20 interviews.
+Interview phase for Season 2 (IDF in Lebanon) is done. The summarization pipeline is built and proven on four real interviews. Open item: confirm the interviewee's name on the Givati brigade-commander summary (currently flagged "שם לאישור"). Next: transcribe and summarize the two Winston interviews, and get Itay's manual review on the AI-generated summaries before scaling to the rest of the ~20 interviews.
 
 **Stakes:** if this pass isn't done well, the project risks being cut by end of August 2026 — roughly a 6-week runway from today.
 
