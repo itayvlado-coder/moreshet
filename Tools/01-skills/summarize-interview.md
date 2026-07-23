@@ -49,7 +49,7 @@ Key structural rules pulled from the real examples:
 
 1. Read the full transcript before writing anything — do not summarize from a partial read.
 2. Identify the natural chapter breaks by place/event, in chronological order.
-3. Within each chapter, write timestamped entries — err toward more, shorter entries over fewer, long ones. The editor needs to jump to a specific minute, not read a paragraph to find it.
+3. Within each chapter, write timestamped entries grouped into fewer, longer beats rather than many short ones — merge continuous action (e.g. a siege, a firefight, and its immediate aftermath) into one entry with a wider timestamp range instead of splitting it into a new entry every time the topic shifts slightly. The editor can still jump to the right minute from a wide range; a wall of one-liners is harder to scan than a handful of meaty ones. (This reverses the original "more, shorter entries" guidance — the CEO asked for longer segments on three summaries in a row, 2026-07-22/23, so treat longer as the default going forward.)
 4. Cross-check place/event names against `Brain/טריטמנט.docx.md` so naming stays consistent across interviews covering the same operation.
 5. Check other summaries already in the same `summaries/` folder — if two interviews describe the same event, that's useful for the editor to know, but don't force an "overlap" section if the real examples don't have one; just make sure place/event naming matches so the overlap is visible by scanning filenames/headers.
 

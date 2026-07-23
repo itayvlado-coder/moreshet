@@ -35,6 +35,11 @@ Include:
 **Why:** `Memory/` is reserved for small, compressed state files per the system's own convention; raw video (multi-GB files) doesn't belong there and would break git if committed (files far exceed practical repo size).
 **Means:** Any new raw footage the user drops in should go straight into this structure, not into `Memory/`.
 
+## 2026-07-23 — Interview summaries default to fewer, longer timestamped entries
+**Decided:** `Tools/01-skills/summarize-interview.md` now instructs merging continuous action into fewer, wider timestamp-range entries, reversing its original "more, shorter entries" guidance.
+**Why:** The CEO asked for longer segments on three summaries in a row (Roed Balus, then explicitly again on Or Hadari's first interview, 2026-07-22 and 2026-07-23) — a clear repeated preference, not a one-off.
+**Means:** All future auto-generated interview summaries should default to this style unless told otherwise for a specific summary.
+
 ## 2026-07-23 — Real personnel names never go into external-facing documents without explicit sign-off
 **Decided:** Any document meant to leave the company (broadcaster submissions, pitches, GTM material) must ship with a placeholder instead of real commander/soldier names, even when those names are already known internally from interview files, until the CEO explicitly confirms them for that specific document.
 **Why:** The people named are active/reserve IDF personnel; a broadcaster submission is a real external disclosure, not an internal working file — the bar for including a real name is higher than for an internal interview summary.
