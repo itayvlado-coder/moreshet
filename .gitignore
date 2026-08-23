@@ -3,3 +3,10 @@
 # Raw interview footage — too large for git, never committed
 Brain/05-Interviews/**/raw/*
 !Brain/05-Interviews/**/raw/.gitkeep
+
+# Raw video presentations — same reason, multi-GB files
+Brain/05-Interviews/**/presentations/*
+!Brain/05-Interviews/**/presentations/.gitkeep
+
+# Zip exports of raw source material
+Brain/05-Interviews/**/*.zip
