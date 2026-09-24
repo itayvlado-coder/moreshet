@@ -36,3 +36,9 @@ Or add it yourself:
 ## Feedback Log
 
 *(Entries start here)*
+
+## 2026-09-24 — Givati brigade (reserve-duty admin)
+**Type:** Other
+**What:** The army asked for a weekly activity report (hours, daily activity, location) covering the reserve-duty order the project work runs under. First one filled for the week of 20–26.09.2026.
+**Signal strength:** Clear pattern — recurring weekly requirement
+**Action needed?** Yes — fill the report every week; process is in `Memory/learning-log.md` (2026-09-24)
