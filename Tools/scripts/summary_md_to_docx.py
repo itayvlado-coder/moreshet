@@ -5,6 +5,7 @@ bold 15pt title, bold section headers, plain RTL body paragraphs.
 
 Usage: python3 summary_md_to_docx.py input.md output.docx
 """
+import re
 import sys
 import docx
 from docx.shared import Pt
@@ -26,15 +27,19 @@ def add_run(paragraph, text, bold=False):
 
 
 def add_run_with_inline_bold(paragraph, text, base_bold=False, base_size=None):
-    """Splits text on **...** markers and renders each segment with the right bold state,
-    so literal asterisks never leak into the Word output."""
-    parts = text.split("**")
-    for i, part in enumerate(parts):
-        if part == "":
-            continue
-        run = add_run(paragraph, part, bold=base_bold or (i % 2 == 1))
-        if base_size:
-            run.font.size = base_size
+    """Splits text on **...** (bold) and *...* (italic) markers and renders each segment
+    with the right state, so literal asterisks never leak into the Word output."""
+    bold = italic = False
+    for token in re.split(r"(\*\*|\*)", text):
+        if token == "**":
+            bold = not bold
+        elif token == "*":
+            italic = not italic
+        elif token:
+            run = add_run(paragraph, token, bold=base_bold or bold)
+            run.italic = italic
+            if base_size:
+                run.font.size = base_size
 
 
 def convert(input_path, output_path):
