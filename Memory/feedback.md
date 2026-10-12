@@ -42,3 +42,9 @@ Or add it yourself:
 **What:** The army asked for a weekly activity report (hours, daily activity, location) covering the reserve-duty order the project work runs under. First one filled for the week of 20–26.09.2026.
 **Signal strength:** Clear pattern — recurring weekly requirement
 **Action needed?** Yes — fill the report every week; process is in `Memory/learning-log.md` (2026-09-24)
+
+## 2026-10-11 — Givati brigade (excellence ceremony narration)
+**Type:** Other
+**What:** Givati asked for a ~3-minute narration of the Lebanon maneuver (places, events, operational results) to be read by a senior officer at the brigade excellence ceremony. After our draft, the brigade sent its own 10-slide structure (synced to a video). The merged version keeps their structure with our tone and facts. Delivered as Word in ~/Downloads (not in the repo, since it draws on classified slides), with a "to verify with the brigade" page attached.
+**Signal strength:** Single data point. It shows the brigade also uses the project's research for its own internal events, beyond the documentary.
+**Action needed?** No. Open checks are listed in the Word file (1982 claim, crossing date, drones vs. car bombs, order of the fallen names).

@@ -2,7 +2,7 @@
 
 *Compressed current state. Read this at the start of every session for instant context.*
 
-Last updated: 2026-10-02
+Last updated: 2026-10-11
 
 ---
 
@@ -18,7 +18,7 @@ Moreshet is a documentary production company that takes raw army footage, event 
 
 - **"ימים סגולים" (Gaza Project) — broadcaster submission.** A separate, more mature project: a 9-episode documentary on Givati brigade's first 28 days of the Gaza ground maneuver (Swords of Iron). Lives in `Brain/05-Interviews/Gaza Project/` — has a full synopsis, a complete 9-chapter treatment, and an older lower-priority narrative doc. First deliverable, a broadcaster pitch document (`פורמט הגשה.docx`), was drafted 2026-07-23. Open item: the CEO must confirm which real commander names can be listed as participants before this goes out externally — currently a placeholder.
 
-- **Recurring admin — weekly Givati reserve-duty activity report.** The project work runs under a reserve order (01/07/2026 → 01/01/2027, role תחקירן). Givati requires a weekly hours/activity/location report on their scanned form; first one filled 2026-09-24 for 20–26.09. How-to in `Memory/learning-log.md` (2026-09-24).
+- **Recurring admin — weekly Givati reserve-duty activity report.** The project work runs under a reserve order (01/07/2026 → 01/01/2027, role תחקירן). Givati requires a weekly hours/activity/location report on their scanned form; filled so far for 20–26.09 and 04–10.10. How-to in `Memory/learning-log.md` (2026-09-24, and 2026-10-11 for the venv setup and form coordinates).
 
 ---
 
