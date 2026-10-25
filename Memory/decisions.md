@@ -44,3 +44,18 @@ Include:
 **Decided:** Any document meant to leave the company (broadcaster submissions, pitches, GTM material) must ship with a placeholder instead of real commander/soldier names, even when those names are already known internally from interview files, until the CEO explicitly confirms them for that specific document.
 **Why:** The people named are active/reserve IDF personnel; a broadcaster submission is a real external disclosure, not an internal working file — the bar for including a real name is higher than for an internal interview summary.
 **Means:** On the "ימים סגולים" broadcaster pitch (`Brain/05-Interviews/Gaza Project/פורמט הגשה.docx`), the participants field was left as an explicit placeholder rather than filled from the older narrative doc's names. Apply the same rule to any future external-facing document for either project.
+
+## 2026-10-21 — צל״ש interview mapping is organized by event ("תיק אירוע")
+**Decided:** The interview list for the Givati citation documentation is one file per battle or event (summary with sourced numbers, recipients, people to locate, the fallen as a separate decision, interview points, contradictions, logistics). No priority column, and no meta notes about our own process.
+**Why:** The CEO reviewed a Nahal Oz example and approved it ("מצויין") after three changes. Grouping by event avoids interviewing the same battle twice and lets the photographer batch shoots by unit.
+**Means:** Files live in `Brain/05-Interviews/צלשים 7.10/`, numbered 00–08 with whole numbers only, each with a PDF next to it.
+
+## 2026-10-25 — The צל״ש documentation covers 7.10 only, not the ground maneuver
+**Decided:** Drop the maneuver. Only 7.10 and the days until the ground maneuver are mapped (67 rows, 56 people in the 24.10 spreadsheet). The maneuver file was deleted.
+**Why:** The CEO's call.
+**Means:** Ignore the "תמרון – עזה" tab and maneuver-only rows in future spreadsheet versions.
+
+## 2026-10-25 — Claims beyond a narrator's own arena are attributed and flagged, not stated as fact
+**Decided:** When one narrator claims wider impact (Atias on brigade 401's deployment, opening route 232, sending a brigadier general to the rear), the file says "לפי אטיאס" and lists the claim in a "טענות שצריך לאמת" table, next to who can confirm it. Source-process mentions (that a detail came from voice recordings) are left out of the documents.
+**Why:** Atias's 29-minute account risked making his arenas carry the whole story. The CEO approved splitting Nova from Kissufim and attributing the big claims, then asked to drop the "recordings" wording.
+**Means:** Apply the same rule to any future single-narrator material, including Alfasi's voice notes if they arrive.

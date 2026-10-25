@@ -48,3 +48,21 @@ Or add it yourself:
 **What:** Givati asked for a ~3-minute narration of the Lebanon maneuver (places, events, operational results) to be read by a senior officer at the brigade excellence ceremony. After our draft, the brigade sent its own 10-slide structure (synced to a video). The merged version keeps their structure with our tone and facts. Delivered as Word in ~/Downloads (not in the repo, since it draws on classified slides), with a "to verify with the brigade" page attached.
 **Signal strength:** Single data point. It shows the brigade also uses the project's research for its own internal events, beyond the documentary.
 **Action needed?** No. Open checks are listed in the Word file (1982 claim, crossing date, drones vs. car bombs, order of the fallen names).
+
+## 2026-10-21 — Givati brigade (citation documentation project)
+**Type:** Other
+**What:** Givati sent a consolidated צל״ש recommendations spreadsheet (83 rows, 10 tabs: 7.10 by unit, maneuver, fallen). Moreshet will send a photographer and interviewer around Israel to film recipients and related people telling their 7.10 battles. Deliverable: the list of people to interview and the main points per person.
+**Signal strength:** Clear, a new active project.
+**Action needed?** Yes. Event files delivered in `Brain/05-Interviews/צלשים 7.10/`. Open CEO decisions: families of the fallen, rescued civilians, the Kapshitar family.
+
+## 2026-10-24 — Givati brigade (updated citations spreadsheet)
+**Type:** Other
+**What:** An updated spreadsheet with new angles highlighted in yellow (all from Tzabar, via a recommender signed "דוקס צבר"): a new recipient (Ran Moshe), Dor Sadeh z"l recommended for a Chief of Staff citation, and decoration recommendations (Alfasi עיטור המופת, Algarbali עיטור העוז, Yali Aharon עיטור הגבורה/עוז). Unhighlighted additions included a Shaked unit citation (12 fighters, 47 civilians saved at the Nova).
+**Signal strength:** The spreadsheet is still evolving, so expect more versions.
+**Action needed?** Yes. Diff each new version against the last one.
+
+## 2026-10-22 — Yair Atias (Shaked commander), voice testimony
+**Type:** Other
+**What:** Four WhatsApp voice notes (about 29 minutes) of Atias narrating his 7.10: Nova, Re'im, Kissufim, Holit. He recommends interviewing Yigal (Nova security manager), the Masada soldiers, YAMAM South, Beni Aharon and Vitaly (on Zoom), and offers videos.
+**Signal strength:** Strong, first-hand source with media.
+**Action needed?** Yes. Confirm the spellings of the names, and ask him for the videos and the Masada soldiers' phone numbers.
