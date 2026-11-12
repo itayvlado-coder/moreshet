@@ -1,0 +1,113 @@
+/* עיצוב תיקי ההגשה לאוגדה, לפי תיקי המועמד האישיים (Heebo + Frank Ruhl Libre) */
+@font-face { font-family: "Heebo"; src: url("fonts/Heebo%5Bwght%5D.ttf") format("truetype"); font-weight: 100 900; }
+@font-face { font-family: "Frank Ruhl Libre"; src: url("fonts/FrankRuhlLibre%5Bwght%5D.ttf") format("truetype"); font-weight: 300 900; }
+
+:root {
+  --purple: #3a1752; --purple2: #4a1d6e; --purple-soft: #513266; --stat: #44225a; --stat-border: #5c3476;
+  --gold: #c9a24a; --gold-soft: #d8bc7e; --cream: #f6f1e6; --page: #fbfaf7; --lav: #f3eff6;
+  --row: #fff7e6; --line: #ddd5e3; --ink: #2a2230; --muted: #6f6578;
+  --green: #558461; --green-bg: #e6f1e6; --orange: #9f5d34; --orange-bg: #fbe7d8; --crit: #fffbf0;
+}
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: "Heebo", sans-serif; color: var(--ink); direction: rtl; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+.page { width: 210mm; height: 297mm; position: relative; overflow: hidden; page-break-after: always; background: var(--page); }
+.page:last-child { page-break-after: auto; }
+
+/* ---------- שער ---------- */
+.cover { background: var(--purple); color: #fff; text-align: center; }
+.cover .waves { position: absolute; inset: 0; width: 100%; height: 100%; }
+.cover .inner { position: relative; padding: 9mm 17mm 0; height: 100%; }
+.cover .classif { font-size: 8pt; letter-spacing: 3px; color: #cfc3da; margin-bottom: 7mm; }
+.badge { width: 90mm; margin: 0 auto; background: var(--cream); border: 1.5px solid var(--gold-soft); border-radius: 5mm;
+  display: flex; justify-content: space-around; align-items: flex-end; padding: 5mm 6mm 3.5mm; }
+.badge figure { margin: 0; text-align: center; }
+.badge img { height: 34mm; display: block; margin: 0 auto 1.5mm; }
+.badge figcaption { color: var(--purple); font-weight: 700; font-size: 7.5pt; }
+.cover .brigade { font-family: "Frank Ruhl Libre", serif; font-weight: 900; font-size: 21pt; margin-top: 7mm; }
+.cover .war { font-size: 10.5pt; letter-spacing: 2px; color: #ddd2e6; margin-top: 1mm; }
+.cover .rule { width: 46mm; height: 2px; background: var(--gold); margin: 6mm auto 7mm; }
+.cover .kind { color: var(--gold); font-weight: 700; font-size: 10pt; letter-spacing: 6px; word-spacing: 9px; }
+.cover .title { font-family: "Frank Ruhl Libre", serif; font-weight: 900; font-size: 36pt; line-height: 1.15; margin-top: 3mm; }
+.cover .subtitle { font-size: 13pt; color: #e6deec; margin-top: 2mm; font-weight: 300; }
+.cover .pill { display: inline-block; background: var(--gold); color: var(--purple); font-family: "Frank Ruhl Libre", serif; font-weight: 900;
+  font-size: 12pt; padding: 3.2mm 10mm; border-radius: 10mm; margin-top: 7mm; }
+.cover .dateline { font-size: 9.5pt; color: #e6deec; margin-top: 5mm; }
+.stats { display: flex; gap: 6mm; justify-content: center; margin-top: 12mm; direction: rtl; }
+.stat { width: 41mm; min-height: 29mm; background: var(--stat); border: 1px solid var(--stat-border); border-top: 2.5px solid var(--gold);
+  padding: 4mm 3mm 3mm; }
+.stat b { display: block; font-family: "Frank Ruhl Libre", serif; font-weight: 700; font-size: 21pt; color: var(--gold); line-height: 1.1; }
+.stat span { display: block; font-size: 8.5pt; color: #e6deec; line-height: 1.55; margin-top: 2mm; }
+.toc { position: absolute; bottom: 15mm; left: 17mm; right: 17mm; border-top: 1px solid #7a4a9a; padding-top: 5mm;
+  display: grid; grid-template-columns: 1fr 1fr; grid-auto-flow: column; grid-template-rows: repeat(3, auto); row-gap: 2.6mm; text-align: right; }
+.toc div { font-size: 9pt; color: #e6deec; }
+.toc div b { color: var(--gold); margin-left: 2.5mm; font-weight: 700; }
+.cover .foot { position: absolute; bottom: 6mm; left: 0; right: 0; font-size: 7.5pt; color: #a99bb6; }
+
+/* ---------- עמודים פנימיים ---------- */
+.hdr { background: var(--purple); color: #fff; height: 15mm; border-bottom: 2px solid var(--gold); display: flex; align-items: center;
+  justify-content: space-between; padding: 0 7mm 0 9mm; }
+.hdr .t1 { font-weight: 700; font-size: 10pt; }
+.hdr .t2 { font-size: 7.5pt; color: #d9cfe2; margin-top: 0.6mm; }
+.hdr img { height: 10mm; border-radius: 1.5mm; }
+.body { padding: 7mm 13mm 0; }
+.ftr { position: absolute; bottom: 9mm; left: 13mm; right: 13mm; border-top: 1px solid var(--gold); padding-top: 2mm;
+  display: flex; justify-content: space-between; font-size: 7pt; color: var(--muted); }
+
+.sec { display: flex; align-items: center; gap: 3mm; margin: 4mm 0 4mm; }
+.sec .n { width: 7.5mm; height: 7.5mm; border-radius: 50%; background: var(--gold); color: #fff; font-weight: 700; font-size: 9pt;
+  display: flex; align-items: center; justify-content: center; flex: none; }
+.sec h2 { font-family: "Frank Ruhl Libre", serif; font-weight: 900; font-size: 15pt; color: var(--purple); margin: 0; white-space: nowrap; }
+.sec .ln { flex: 1; height: 1.5px; background: var(--gold); }
+
+.sub h3 { font-size: 9pt; font-weight: 700; color: var(--purple-soft); margin: 3.5mm 0 1mm; }
+.sub p, .p { font-size: 8.6pt; line-height: 1.75; margin: 0 0 1mm; text-align: justify; }
+.subq { display: flex; gap: 5mm; align-items: flex-start; }
+.subq .txt { flex: 1; }
+.quote { width: 50mm; flex: none; background: var(--lav); border-right: 2.5px solid var(--gold); padding: 5mm 5mm 4mm; margin-top: 4mm; }
+.quote b { display: block; font-family: "Frank Ruhl Libre", serif; font-weight: 900; font-size: 15pt; color: var(--purple); line-height: 1.25; }
+.quote span { display: block; font-size: 7.3pt; color: var(--muted); margin-top: 2.5mm; line-height: 1.6; }
+
+table.tl { width: 100%; border-collapse: collapse; font-size: 8pt; }
+table.tl th { background: var(--purple2); color: #fff; font-weight: 700; text-align: right; padding: 2.2mm 2.5mm; font-size: 8pt; }
+table.tl td { padding: 2mm 2.5mm; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.55; }
+table.tl tr.hl td { background: var(--row); }
+table.tl td.when { font-weight: 700; color: var(--purple); white-space: nowrap; }
+table.tl td.where { color: var(--muted); }
+table.tl td.doc { color: var(--muted); font-size: 7.5pt; }
+table.tl td.num { text-align: center; font-weight: 700; color: var(--purple); }
+.tag { display: inline-block; font-size: 6.8pt; font-weight: 700; border-radius: 3mm; padding: 0.3mm 2mm; margin-right: 1mm; }
+.tag.ok { background: var(--green-bg); color: var(--green); }
+.tag.ask { background: var(--orange-bg); color: var(--orange); }
+.lvl { font-weight: 700; color: var(--purple); }
+
+.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+.card { background: #fff; border: 1px solid var(--line); border-top: 2.5px solid var(--purple2); padding: 3.5mm 4mm; }
+.card h4 { margin: 0 0 1.5mm; font-size: 9pt; color: var(--purple); }
+.card p { margin: 0; font-size: 8.2pt; line-height: 1.7; }
+
+.docs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; }
+.doc { background: #fff; border: 1px solid var(--line); }
+.doc .ph { height: 17mm; display: flex; align-items: center; justify-content: center; font-size: 7pt; color: #a99bb6;
+  background: repeating-linear-gradient(135deg, #f2eff5 0 3mm, #e9e3f0 3mm 6mm); }
+.doc .cap { padding: 2mm 2.5mm; }
+.doc .cap b { display: block; font-size: 8pt; color: var(--purple); }
+.doc .cap span { font-size: 7.3pt; color: var(--muted); }
+.wit h3 { font-size: 10pt; color: var(--purple); margin: 4mm 0 1.5mm; font-family: "Frank Ruhl Libre", serif; font-weight: 900; }
+.wit ul { columns: 2; column-gap: 8mm; margin: 0; padding-right: 4mm; font-size: 8.2pt; line-height: 1.8; }
+.note { font-size: 7.3pt; color: var(--muted); margin: 1.5mm 0 0; }
+
+.crit { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+.crit div { background: var(--crit); border: 1px solid var(--gold-soft); padding: 3.5mm 4mm; }
+.crit h4 { margin: 0 0 1.5mm; font-size: 9pt; color: var(--purple); }
+.crit p { margin: 0; font-size: 8.2pt; line-height: 1.7; }
+.reco { background: var(--purple); color: #fff; display: flex; align-items: center; gap: 6mm; padding: 5mm 7mm; margin-top: 6mm; }
+.reco .lab { font-family: "Frank Ruhl Libre", serif; font-weight: 900; font-size: 16pt; color: var(--gold); border-left: 1.5px solid var(--gold);
+  padding-left: 6mm; white-space: nowrap; }
+.reco p { margin: 0; font-size: 8.8pt; line-height: 1.75; }
+.sign { display: flex; gap: 8mm; margin-top: 12mm; }
+.sign div { flex: 1; border-bottom: 1.5px solid var(--ink); font-size: 7.5pt; color: var(--muted); padding-bottom: 1mm; }
+.gap { height: 3mm; }
+table.tl.compact td { padding: 1.1mm 2.5mm; font-size: 7.8pt; line-height: 1.4; }
