@@ -108,7 +108,7 @@ ARENAS = [
  {'key': 'kfaraza', 'name': 'כפר עזה', 'short': 'כפר עזה', 'points': ['kfaraza'],
   'when': '7.10 11:30 עד 9.10 בבוקר', 'main': True},
  {'key': 'nahaloz', 'name': 'נחל עוז', 'short': 'נחל עוז', 'points': ['nahaloz'],
-  'when': '7.10 11:00 עד 11.10', 'main': True},
+  'when': '7.10 13:00 עד 11.10', 'main': True},
  {'key': 'kissufim', 'name': 'כיסופים', 'short': 'כיסופים', 'points': ['kissufim'],
   'when': '7.10 אחר הצהריים עד 10.10', 'main': True},
  {'key': 'north', 'name': 'צפון העוטף: נתיב העשרה', 'short': 'נתיב העשרה', 'points': ['netiv'],
