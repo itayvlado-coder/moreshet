@@ -257,7 +257,7 @@ def add_flow_slide(prs, key, bg_png):
 
     # שעונים: אחד לכל מצב. הראשון ("7.10 בוקר") גלוי מההתחלה
     cw, ch = 170, 70
-    cx, cy = box[0] + box[2] - 22 - cw, box[1] + 18
+    cx, cy = box[0] + 22, box[1] + 18   # פינה שמאלית עליונה של המפה
     clocks = []
     for i in range(len(steps) + 1):
         sh = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, emu(cx), emu(cy), emu(cw), emu(ch))
@@ -286,8 +286,8 @@ def add_flow_slide(prs, key, bg_png):
         tb = s.shapes.add_textbox(emu(tx[0]), emu(tx[1]), emu(tx[2]), emu(tx[3] + 6))
         tb.name = f"אירוע {i}"
         tcol = "8A7F93" if fk == "civ" else darker(c)
-        set_text(tb, [[(when, 15, PURPLE, True), (" · ", 15, INK, False), (FORCE[fk][0], 15, tcol, True)],
-                      [(txt, 15, INK, False)]])
+        set_text(tb, [[(when, 13.5, PURPLE, True), (" · ", 13.5, INK, False), (FORCE[fk][0], 13.5, tcol, True)],
+                      [(txt, 13.5, INK, False)]])
         # על המפה: אזור, חצים, נקודה
         zs = []
         for z in by_step(m["zones"], i):

@@ -32,13 +32,15 @@ html, body { background: #14081f; height: 100%; overflow: hidden; }
 @keyframes zone { 0%,100% { fill-opacity: .10; } 50% { fill-opacity: .28; } }
 @keyframes march { to { stroke-dashoffset: -34; } }
 
-.live .fstep { opacity: .28; transition: opacity .5s, background .5s; border-radius: 8px; padding: 4px 6px; margin: 0 -6px; cursor: pointer; }
+.live .fstep { opacity: .28; transition: opacity .5s, background .5s; border-radius: 8px; padding: 1px 6px; margin: 0 -6px; cursor: pointer; }
+.live .fsteps { gap: 4px; }
+.live .fmapbox { align-self: start; }
 .live .fstep.on { opacity: 1; }
 .live .fstep.cur { background: var(--lav); box-shadow: inset -4px 0 0 var(--cc); }
 
 /* שעון וכפתורים על המפה */
 .fmapbox { position: relative; }
-#clock { position: absolute; top: 18px; right: 22px; background: rgba(44,16,64,.85); border: 1px solid var(--gold); border-radius: 10px;
+#clock { position: absolute; top: 18px; left: 22px; background: rgba(44,16,64,.85); border: 1px solid var(--gold); border-radius: 10px;
   padding: 6px 16px 8px; color: var(--gold); font: 900 30px/1.1 "Frank Ruhl Libre", serif; min-width: 120px; text-align: center;
   transition: opacity .4s; }
 #clock small { display: block; font: 600 13px "Heebo", sans-serif; color: #e4dcef; letter-spacing: 1px; }
