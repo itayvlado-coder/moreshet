@@ -307,15 +307,15 @@ svg .sealbl { font-family: "Heebo", sans-serif; font-size: 13px; fill: #7f98ad; 
 .fmap .fs { fill: #e4dcef; font-size: 13px; paint-order: stroke; stroke: #2c1040; stroke-width: 3px; }
 .fmap .fnorth { fill: #e4dcef; font-size: 14px; font-weight: 800; }
 .fside { grid-column: 1; grid-row: 1; }
-.fsteps { display: flex; flex-direction: column; gap: 9px; }
-.fstep { display: grid; grid-template-columns: 32px 1fr; gap: 10px; align-items: start; font-size: 15px; line-height: 1.4; }
+.fsteps { display: flex; flex-direction: column; gap: 6px; }
+.fstep { display: grid; grid-template-columns: 32px 1fr; gap: 10px; align-items: start; font-size: 14px; line-height: 1.36; }
 .fstep b { color: var(--purple); }
 .fstep .ff { font-weight: 700; filter: brightness(.72); }
 .fstep p { color: var(--ink); }
 .fnum { width: 30px; height: 30px; border-radius: 50%; background: var(--c); border: 3px solid var(--c); color: var(--purple3);
   font-weight: 900; font-size: 15px; display: flex; align-items: center; justify-content: center; }
 .fnum.ap { background: var(--purple3); color: var(--c); }
-.fleg { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 14px; font-size: 14px; color: var(--muted); }
+.fleg { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 10px; font-size: 14px; color: var(--muted); }
 .fleg i { display: inline-block; width: 18px; height: 6px; border-radius: 3px; margin-left: 6px; vertical-align: middle; outline: 1px solid #b9aac7; }
 .fnum.ap { box-shadow: 0 0 0 1px #b9aac7; }
 .flow .note { font-size: 13px; margin-top: 8px; }
