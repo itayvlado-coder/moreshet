@@ -516,6 +516,8 @@ def build_slides():
     out.append(s_others())
     out.append(s_batt("gadsam"))
     for a in [a for a in ARENAS if not a["main"]]:
+        if a["key"] in FLOW:
+            out.append(s_flow(a["key"]))
         ns = cands_in(a["key"])
         for p, n in enumerate(ns, 1):
             out.append(s_cand(n, p, len(ns), a))
