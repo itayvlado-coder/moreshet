@@ -5,13 +5,15 @@
 ליד כל מפה: השעות של השלב, והאירועים שלו בקצרה.
 
 שימוש:  python3 build_print.py
-נוצר:   "מהלך הקרב בשלבים - שקפים להדפסה.pdf" (שקף לכל זירה, 1600x900, כמו המצגת)
+נוצרים: "מהלך הקרב בשלבים - שקפים להדפסה.pdf" (שקף לכל זירה, 1600x900, כמו המצגת),
+        ו-"מהלך הקרב בשלבים - שקפים להדפסה.pptx" (אותם שקפים כתמונות חדות, להוספה למצגת אחרת)
 """
 import subprocess
 import build_deck as b
 from battle_maps import FLOW, FORCE, flow_svg, _proj
 
 OUT_PDF = b.HERE / "מהלך הקרב בשלבים - שקפים להדפסה.pdf"
+OUT_PPTX = OUT_PDF.with_suffix(".pptx")
 ORDER = ["sderot", "kfaraza", "nahaloz", "nova", "kissufim", "north", "south", "ofakim"]
 PANELS = 4
 MAP_W = 560          # רוחב ה-viewBox של המפה הקטנה. הסימנים והכיתוב יוצאים גדולים יחסית
@@ -140,5 +142,33 @@ document.getElementById('clip').textContent=bad.join(' ');});</script></body>"""
     print("clipped panels:", m2.group(1).strip() if m2 and m2.group(1).strip() else "none")
 
 
+def build_pptx():
+    """כל שקף כתמונה בפי 2, על שקף 16:9 של PowerPoint."""
+    from pptx import Presentation
+    from pptx.util import Emu
+    css = (b.HERE / "deck.css").read_text(encoding="utf-8") + PRINT_CSS
+    img = b.HERE / "_pptx_img"
+    img.mkdir(exist_ok=True)
+    prs = Presentation()
+    prs.slide_width, prs.slide_height = Emu(12192000), Emu(6858000)
+    keys = [k for k in ORDER if k in FLOW] + [k for k in FLOW if k not in ORDER]
+    for k in keys:
+        f = b.HERE / "_p1.html"
+        f.write_text(f'<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><style>{css}</style></head>'
+                     f'<body>{print_slide(k)}</body></html>', encoding="utf-8")
+        png = img / f"print_{k}.png"
+        subprocess.run([b.CHROME, "--headless", "--disable-gpu", "--virtual-time-budget=5000", "--hide-scrollbars",
+                        "--force-device-scale-factor=2", "--window-size=1600,900", f"--screenshot={png}", f.as_uri()], capture_output=True)
+        f.unlink()
+        jpg = png.with_suffix(".jpg")
+        subprocess.run(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "90", str(png), "--out", str(jpg)], capture_output=True)
+        s = prs.slides.add_slide(prs.slide_layouts[6])
+        s.shapes.add_picture(str(jpg), 0, 0, prs.slide_width, prs.slide_height).name = f"מהלך הקרב בשלבים: {FLOW[k]['title']}"
+        s.notes_slide.notes_text_frame.text = f"{FLOW[k]['title']}: מהלך הקרב בארבעה שלבים. {FLOW[k]['note']}"
+    prs.save(OUT_PPTX)
+    print("ok", OUT_PPTX.name, len(keys), "slides", f"{OUT_PPTX.stat().st_size // 1024} KB")
+
+
 if __name__ == "__main__":
     main()
+    build_pptx()
