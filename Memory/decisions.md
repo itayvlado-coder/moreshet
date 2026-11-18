@@ -59,3 +59,18 @@ Include:
 **Decided:** When one narrator claims wider impact (Atias on brigade 401's deployment, opening route 232, sending a brigadier general to the rear), the file says "לפי אטיאס" and lists the claim in a "טענות שצריך לאמת" table, next to who can confirm it. Source-process mentions (that a detail came from voice recordings) are left out of the documents.
 **Why:** Atias's 29-minute account risked making his arenas carry the whole story. The CEO approved splitting Nova from Kissufim and attributing the big claims, then asked to drop the "recordings" wording.
 **Means:** Apply the same rule to any future single-narrator material, including Alfasi's voice notes if they arrive.
+
+## 2026-11-17 — Interview corrections go into every layer we own; the personal cards stay untouched
+**Decided:** Each interview updates the event files (00–08), the internal force files, the division submission data and PDFs, and the brigade deck in one pass. The personal cards in Drive (owner gizbar1986) are never edited. Their corrections go into "תוספות לכרטיסים" files, which the CEO forwards.
+**Why:** The CEO asked for it after the audit showed the deck and submission were weeks behind the interviews.
+**Means:** "Done" for an interview means all layers are rebuilt, not only its story files.
+
+## 2026-11-17 — Facts confirmed by the CEO
+**Decided:** Maatouk fitted out the brigade commander's Namer alone, so the claim in Algarbli's card is removed. Zilberman is a reserve major (רס״ן מיל׳). The Namer reached Kfar Aza at about 14:00–14:30; the one that took seven anti-tank hits was Golani's.
+**Why:** The CEO's confirmation, matching Maatouk's and Fares's interviews.
+**Means:** Treat these as settled. Tzabar's entry time and the first-house time are still open: write "אחר הצהריים", not a clock time.
+
+## 2026-11-17 — Battle flows: one map per arena, shown three ways
+**Decided:** Each arena gets a battle-flow map (OSM base, numbered events in time order, color per force, hollow marker for an estimated location). It appears as a deck slide, as an animated live page, and in one interactive overview link where clicking an arena opens its flow. There are also click-per-event PowerPoint and Google Slides decks, and a printable four-panel slide per arena.
+**Why:** The CEO approved the Kfar Aza example and asked for all arenas, a single shareable link, a print version and Google Slides.
+**Means:** Sources are `battle_maps.py`, `build_live.py`, `build_pptx.py`, `build_print.py` and `build_gslides.py` in `הגשה לאוגדה/מצגת חטיבה/`. Yakhini and Mishmar HaNegev have no event file, so they have no map.

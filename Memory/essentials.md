@@ -2,7 +2,7 @@
 
 *Compressed current state. Read this at the start of every session for instant context.*
 
-Last updated: 2026-10-25
+Last updated: 2026-11-18
 
 ---
 
@@ -18,7 +18,10 @@ Moreshet is a documentary production company that takes raw army footage, event 
 
 - **"ימים סגולים" (Gaza Project) — broadcaster submission.** A separate, more mature project: a 9-episode documentary on Givati brigade's first 28 days of the Gaza ground maneuver (Swords of Iron). Lives in `Brain/05-Interviews/Gaza Project/` — has a full synopsis, a complete 9-chapter treatment, and an older lower-priority narrative doc. First deliverable, a broadcaster pitch document (`פורמט הגשה.docx`), was drafted 2026-07-23. Open item: the CEO must confirm which real commander names can be listed as participants before this goes out externally — currently a placeholder.
 
-- **Givati צל״ש documentation (7.10).** Moreshet will film 7.10 testimonies of citation recipients and related people, with a photographer and interviewer traveling around Israel. The source is Givati's consolidated citations spreadsheet (latest version 24.10, in ~/Downloads; we use 67 rows / 56 people, maneuver excluded). The deliverable lives in `Brain/05-Interviews/צלשים 7.10/`: an index (00) and 8 event files (01 Nahal Oz, 02 Kfar Aza, 03 Nova & Re'im, 04 Kissufim, 05 Sha'ar HaNegev & Sderot, 06 southern envelope, 07 northern envelope, 08 Ofakim), each with a PDF, plus a copy in ~/Downloads. Atias's voice testimony is folded into 03–04, with his larger claims in verification tables. Estimate: about 50–65 interviewees, 8–10 shoot days. Open: families of the fallen, rescued civilians, the Kapshitar family, confirming names from Atias's audio, and whether Alfasi's own voice notes exist. Format rules are in `Memory/decisions.md` (2026-10-21, 2026-10-25).
+- **Givati צל״ש documentation (7.10).** Moreshet films 7.10 testimonies of citation recipients. Everything lives in `Brain/05-Interviews/צלשים 7.10/`: event files 00–08, internal force files (`תיקי כוח/` 00–10), the interview folder (`תמלולי ראיונות/`: per interviewee a transcript, "סיפור המעשה", "רגעים למצלמה ומפתח לעורך" and "תוספות לכרטיסים", each md with a PDF), and the division submission (`הגשה לאוגדה/`: data in `נתונים/*.py`, PDFs in `תיקי כוח/` and `תיקי אירוע/`, the brigade deck in `מצגת חטיבה/`). As of 18.11 all layers include the interviews from 3.11 to 16.11 plus the Amit Levi testimonies, and the personal cards in Drive are never edited (decisions 2026-11-17).
+  - **Battle flows:** eight arena maps (Sderot, Kfar Aza, Nahal Oz, Nova & Re'im, Kissufim, Netiv HaAsara, southern envelope, Ofakim) as deck slides, a click-per-event PowerPoint (91 slides), a printable four-panel PDF, a Google Slides deck in Drive, and private claude.ai links: the all-arena map https://claude.ai/artifact/Mj1LBXYyJPmAGm6vTuSuQc, Kfar Aza (shared by link), and Nova.
+  - **Drive:** story PDFs go to "סיפורי מעשה לפי שם מועמד". The voice-note transcripts and recordings (13 for Achiya plus Amit Levi's 4) are in "הקלטות עם תמלול". Uploads only with the CEO's approval each time, and at most 10 MB per file from here.
+  - **Open:** event locations on the maps are mostly estimates; Tzabar's entry time and the first-house time; the Nova arrival time of the deputy commander's team; who fought at Hetz Shachor (4–5 or 8 terrorists); the 27 Achiya recordings are transcribed but not yet turned into stories; main is about 19 commits ahead of GitHub, not pushed (the push needs the CEO's token from a terminal).
 
 - **Recurring admin — weekly Givati reserve-duty activity report.** The project work runs under a reserve order (01/07/2026 → 01/01/2027, role תחקירן). Givati requires a weekly hours/activity/location report on their scanned form; filled so far for 20–26.09 and 04–10.10. How-to in `Memory/learning-log.md` (2026-09-24, and 2026-10-11 for the venv setup and form coordinates).
 

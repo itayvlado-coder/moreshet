@@ -66,3 +66,15 @@ Or add it yourself:
 **What:** Four WhatsApp voice notes (about 29 minutes) of Atias narrating his 7.10: Nova, Re'im, Kissufim, Holit. He recommends interviewing Yigal (Nova security manager), the Masada soldiers, YAMAM South, Beni Aharon and Vitaly (on Zoom), and offers videos.
 **Signal strength:** Strong, first-hand source with media.
 **Action needed?** Yes. Confirm the spellings of the names, and ask him for the videos and the Masada soldiers' phone numbers.
+
+## 2026-11-18 — Shin Bet coordinator ("בנעמי") on Amit Levi
+**Type:** Other
+**What:** Two voice notes (about 11 minutes) from a Shin Bet coordinator who fought alongside Amit Levi at Kfar Aza. He describes Amit, without a vest or helmet, rushing to the doorway of a house with two terrorists inside, extracting a badly wounded Duvdevan fighter under fire, and directing the junior fighters. He also cautions that leaving home on one's own initiative is not enough for a citation; the specific event is. It fits Amit's own account of a wounded Duvdevan fighter around 16:00.
+**Signal strength:** Strong. An external, non-IDF witness to the key moment.
+**Action needed?** Yes. Transcript and card additions are done ("עמית לוי - תוספות לכרטיסים"). Never name the unit, "680" or the coordinator on camera or in the card.
+
+## 2026-11-17 — CEO on the battle-flow visuals
+**Type:** Customer feedback
+**What:** The CEO approved the Kfar Aza map, then asked for a live animation, a version inside PowerPoint, a shareable link for feedback, all arenas in one interactive map, print slides (chose one slide per arena with four panels), and Google Slides.
+**Signal strength:** Strong. Repeated, specific requests building on the format.
+**Action needed?** Collect feedback on the shared links, and get the event locations marked by someone who was there.
