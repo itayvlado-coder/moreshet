@@ -40,6 +40,17 @@ To batch an entire folder, loop over every file in `raw/` and run the same comma
 
 ---
 
+## Standing Step: Word copy to Drive (צל״ש interviews, CEO 2026-11-22)
+
+Every interview transcript also gets a Word copy, every time, without being asked, alongside the story, editor and card-additions files:
+
+1. Transcript md lives in `Brain/05-Interviews/צלשים 7.10/תמלולי ראיונות/קבצי md/<name> - תמלול ראיון.md`, one line per segment: `**[HH:MM:SS]** text`.
+2. Convert: `NODE_PATH=<folder with docx installed>/node_modules node Tools/scripts/transcript_md_to_docx.js "<...>/קבצי md" "<...>/תמלולי ראיונות/תמלולים בוורד" "<name>"` → `תמלול - <name>.docx` (title, source line, `[HH:MM:SS] text` per line, section headings; internal notes stay in the md).
+3. Check the count of timestamped lines in the docx matches the md.
+4. Upload to Drive folder **"תמלולי ראיונות"** (id `19R2c3iGnmjs99kPVfFI25UjIjGKqzW9E`, under "ראיונות מצולמים") as .docx, no Google Docs conversion.
+
+---
+
 ## Notes
 
 Whisper and ffmpeg run locally (installed via Homebrew + pip during setup). No internet upload of footage required.

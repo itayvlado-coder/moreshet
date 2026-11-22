@@ -74,3 +74,8 @@ Include:
 **Decided:** Each arena gets a battle-flow map (OSM base, numbered events in time order, color per force, hollow marker for an estimated location). It appears as a deck slide, as an animated live page, and in one interactive overview link where clicking an arena opens its flow. There are also click-per-event PowerPoint and Google Slides decks, and a printable four-panel slide per arena.
 **Why:** The CEO approved the Kfar Aza example and asked for all arenas, a single shareable link, a print version and Google Slides.
 **Means:** Sources are `battle_maps.py`, `build_live.py`, `build_pptx.py`, `build_print.py` and `build_gslides.py` in `הגשה לאוגדה/מצגת חטיבה/`. Yakhini and Mishmar HaNegev have no event file, so they have no map.
+
+## 2026-11-22 — Every interview transcript also goes to Drive as Word
+**Decided:** Each צל״ש interview transcript gets a Word copy, `תמלול - <name>.docx`, in the voice-note format: a title, a source line, then one line per segment with `[HH:MM:SS]`. It is uploaded to the Drive folder "תמלולי ראיונות" under "ראיונות מצולמים". The internal notes ("לא להזכיר במצלמה", unclear names) stay in the repo md and are not uploaded. This is done for every new interview without being asked, and the CEO's request counts as standing approval for this upload.
+**Why:** The CEO wants the full transcripts, with timestamps, in Drive next to the stories, the same way the voice-note transcripts are.
+**Means:** Built by `Tools/scripts/transcript_md_to_docx.js`; the step is in `Tools/01-skills/transcribe-interview.md`. All 16 transcripts from 3.11 to 16.11 were uploaded on 22.11.

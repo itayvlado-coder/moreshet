@@ -94,3 +94,6 @@ python-pptx has no animation API. Injecting a `<p:timing>` block after `clrMapOv
 
 ## 2026-11-18 — Drive uploads from here are capped at 10 MB
 A 12 MB WhatsApp voice note was refused. Re-encoding with the built-in `afconvert -f m4af -d aac -b 96000` kept the full 8.5 minutes in 5 MB, and that copy uploaded fine. Tell the CEO when a file is re-encoded, and that the full-quality original stays local.
+
+## 2026-11-22 — Converting transcripts to Word on this Mac
+Neither pandoc nor python-docx is installed, and the docx npm package isn't installed globally. What worked: `npm install docx@9.5.1` in a scratchpad folder, then run the repo script with `NODE_PATH` pointing at it. LibreOffice's PDF render of the Word file hung past two minutes, so the check was done by unzipping `word/document.xml` and counting `[HH:MM:SS]` paragraphs against the md. All 16 matched (about 15,000 lines). Drive accepts a .docx uploaded with a file reference and conversion turned off, and it then stays a Word file the way the voice-note transcripts are.
