@@ -78,3 +78,9 @@ Or add it yourself:
 **What:** The CEO approved the Kfar Aza map, then asked for a live animation, a version inside PowerPoint, a shareable link for feedback, all arenas in one interactive map, print slides (chose one slide per arena with four panels), and Google Slides.
 **Signal strength:** Strong. Repeated, specific requests building on the format.
 **Action needed?** Collect feedback on the shared links, and get the event locations marked by someone who was there.
+
+## 2026-11-23 — Editor and subject-matter experts on the Bint Jbeil graphic
+**Type:** Customer feedback
+**What:** The editor asked for a Bint Jbeil caption that explains why Aynata matters, for the Israeli settlements and how close they are, and for the Idan ambush and the Tahrir neighbourhood (Shaked) and how they served the attack. She later asked to drop the text windows. The experts moved Idan (onto Shaked's descent route north of the junction) and Tahrir (the area east of the polygon), and added the settlement names and the 607 assembly area, which was with Shaked.
+**Signal strength:** Strong. Specific corrections from the editor and from people who were there.
+**Action needed?** Yes. The designer has to fix "בינג׳ בייל" to "בינת ג׳בל" in "פשיטה רכס המחיצה". In HAPSHITA's later routes 607 is shown with the Sayeret, which may need fixing too.

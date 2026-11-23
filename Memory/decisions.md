@@ -79,3 +79,13 @@ Include:
 **Decided:** Each צל״ש interview transcript gets a Word copy, `תמלול - <name>.docx`, in the voice-note format: a title, a source line, then one line per segment with `[HH:MM:SS]`. It is uploaded to the Drive folder "תמלולי ראיונות" under "ראיונות מצולמים". The internal notes ("לא להזכיר במצלמה", unclear names) stay in the repo md and are not uploaded. This is done for every new interview without being asked, and the CEO's request counts as standing approval for this upload.
 **Why:** The CEO wants the full transcripts, with timestamps, in Drive next to the stories, the same way the voice-note transcripts are.
 **Means:** Built by `Tools/scripts/transcript_md_to_docx.js`; the step is in `Tools/01-skills/transcribe-interview.md`. All 16 transcripts from 3.11 to 16.11 were uploaded on 22.11.
+
+## 2026-11-23 — EP01 notes for Reut: the chronology stays as it is
+**Decided:** Notes on the El-Khiam episode (RC5) do not flag the broken chronology. It is deliberate, for the viewer, and the production knows it is not 100% accurate. Yul's "eggs" line stays in.
+**Why:** CEO decision, 22.11.
+**Means:** Future episode notes skip chronology remarks unless the CEO asks for them.
+
+## 2026-11-23 — Map graphics: the picture explains, not text windows
+**Decided:** In the Bint Jbeil / Aynata graphic, the explanatory text cards were removed. Labels on the map and the animation carry the explanation, because the editor says text windows over speech in the background confuse the viewer. The file is "גרפיקה בינת ג׳בל חדש.mp4".
+**Why:** The editor's note, relayed by the CEO on 23.11.
+**Means:** New map graphics use as few text windows as possible.
