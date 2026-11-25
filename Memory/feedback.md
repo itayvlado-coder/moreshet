@@ -84,3 +84,9 @@ Or add it yourself:
 **What:** The editor asked for a Bint Jbeil caption that explains why Aynata matters, for the Israeli settlements and how close they are, and for the Idan ambush and the Tahrir neighbourhood (Shaked) and how they served the attack. She later asked to drop the text windows. The experts moved Idan (onto Shaked's descent route north of the junction) and Tahrir (the area east of the polygon), and added the settlement names and the 607 assembly area, which was with Shaked.
 **Signal strength:** Strong. Specific corrections from the editor and from people who were there.
 **Action needed?** Yes. The designer has to fix "בינג׳ בייל" to "בינת ג׳בל" in "פשיטה רכס המחיצה". In HAPSHITA's later routes 607 is shown with the Sayeret, which may need fixing too.
+
+## 2026-11-25 — Three צל״ש interviews: Dalal, Rami Sheikh, Algarbali (shot 24.11)
+**Type:** Testimony / source material
+**What:** Algarbali closes where he was hit (abdomen, through-and-through; Sheikh confirms) and says the three shooters entered the house together, not that he "fired first". He also claims he outfitted the Namer (00:09:41 to 00:12:40), against the 17.11 decision. Algarbali and Dalal both put the arrival at Nova around 11:00, not 15:45. Sheikh confirms all four acts on his card and says he listened to the terrorists' radio with Fares in the same room. That weakens the "two radios" theory in the file. Dalal has personal acts (Nova, Kissufim, fighting under Atias) although the battalion rated him "ללא סיווג".
+**Signal strength:** Strong. These are first-hand accounts and confirm each other.
+**Action needed?** Yes. The CEO decides whether to reopen the Namer question. Consider asking the battalion to re-rate Dalal. Not for camera: Dalal 00:36:28, and Algarbali 00:44:40 without his consent. Ask Dalal before using the Yehud family story (00:55:14).
